@@ -1,0 +1,32 @@
+.menu {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu h1 {
+    margin-left: 82px;
+}
+
+.nav-bar {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    height: 100%;
+    width: 144px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+}
+
+.config-bar {
+    width: 170px;
+    background-color: white;
+}

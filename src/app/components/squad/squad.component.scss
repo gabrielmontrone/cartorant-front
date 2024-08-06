@@ -1,7 +1,4 @@
 .squad-container {
-    height: 100%;
-    width: 100%;
-
     display: flex;
     flex-direction: column;
 }
@@ -23,10 +20,12 @@
 
 .seu-time-section {
     height: 336px;
-    width: 100%;
 
     display: flex;
     flex-direction: column;
+
+    margin-left: 82px;
+    margin-right: 82px;
 }
 
 .seu-time-topicos {
@@ -36,8 +35,7 @@
     flex-direction: row;
     justify-content: space-between;
 
-    padding-left: 82px;
-    padding-right: 82px;
+    margin-bottom: 42px;
 }
 
 .topicos-left, .topicos-right {
@@ -53,6 +51,12 @@
 
 .topicos-right h3:first-of-type {
     margin-right: 40px; 
+}
+
+.cards-seu-time-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 
